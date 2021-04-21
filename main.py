@@ -29,8 +29,12 @@ def nineOneOdd():
             print(a)
             a -= 2
 while True:
+    print("oneNineTeen:")
     oneNineTeen()
+    print("twentyOne:")
     twentyOne()
+    print("twoTenEven:")
     twoTenEven()
+    print("nineOneOdd")
     nineOneOdd()
     break
