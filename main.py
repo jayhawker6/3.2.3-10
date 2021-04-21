@@ -23,9 +23,14 @@ def twoTenEven():
         else:
             break
 def nineOneOdd():
-    pass
+    a = 9
+    while True:
+        if a > 0:
+            print(a)
+            a -= 2
 while True:
     oneNineTeen()
     twentyOne()
     twoTenEven()
+    nineOneOdd()
     break
